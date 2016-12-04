@@ -5,191 +5,196 @@ tap 'homebrew/core'
 tap 'homebrew/dupes'
 tap 'homebrew/fuse'
 tap 'homebrew/versions'
-tap 'josegonzalez/php'
-cask 'osxfuse'
-brew 'archey'
-brew 'autoconf'
-brew 'automake'
-brew 'readline'
+
+
+#
+# Comment or uncomment if you want to adapt your installation
+#
+
+# OSX Terminal stuff that will make your life easier
 brew 'bash'
-brew 'icu4c'
-brew 'boost'
-brew 'cmake'
-brew 'gmp'
 brew 'coreutils'
-brew 'libtool', args: ['universal']
-brew 'pkg-config'
-brew 'makedepend'
-brew 'openssl', args: ['universal']
-brew 'jpeg', args: ['universal']
-brew 'libpng', args: ['universal']
-brew 'xz', args: ['universal']
-brew 'libtiff', args: ['universal']
-brew 'wxmac'
-brew 'erlang'
-brew 'nspr'
-brew 'spidermonkey'
-brew 'couchdb'
-brew 'cscope'
 brew 'curl'
+brew 'git'
+brew 'git-lfs'
+brew 'n'
+brew 'trash'
+brew 'wget'
 brew 'dark-mode'
 brew 'dialog'
-brew 'freetype', args: ['universal']
-brew 'fontconfig', args: ['universal']
-brew 'lame'
-brew 'webp', args: ['universal']
-brew 'gettext'
-brew 'pcre'
-brew 'git'
-brew 'gdbm'
-brew 'sqlite'
 brew 'python'
-brew 'yasm'
-brew 'x264'
-brew 'xvid'
-brew 'ffmpeg'
-brew 'figlet'
-brew 'findutils'
-brew 'gd', args: ['universal']
-brew 'go'
-brew 'git-lfs'
-brew 'libffi'
-brew 'glib'
-brew 'libtasn1', args: ['universal']
-brew 'nettle'
-brew 'gnutls'
-brew 'jasper', args: ['universal']
-brew 'little-cms2', args: ['universal']
-brew 'graphicsmagick'
-brew 'hidapi'
-brew 'lua'
-brew 'highlight'
-brew 'htop-osx'
-brew 'hub'
-brew 'little-cms'
-brew 'imagemagick'
-brew 'jansson'
-brew 'libevent'
-brew 'libgpg-error'
-brew 'libusb', args: ['universal']
-brew 'libusb-compat', args: ['universal']
-brew 'libgphoto2', args: ['universal']
-brew 'libicns', args: ['universal']
-brew 'libksba'
-brew 'libmicrohttpd'
-brew 'libvo-aacenc'
-brew 'libxml2'
-brew 'libyaml'
-brew 'lynx'
 brew 'mackup'
 brew 'python3'
-brew 'macvim', args: ['with-override-system-vim']
+brew 'findutils'
+brew 'gnutls'
+brew 'imagemagick'
 brew 'mas'
-brew 'mhash'
-brew 'mcrypt'
-brew 'mono'
 brew 'moreutils'
-brew 'mplayer'
-brew 'mysql'
-brew 'n'
-brew 'net-snmp'
-brew 'optipng'
-brew 'phantomjs'
-brew 'pixman'
-brew 'ruby-build'
-brew 'rbenv'
-brew 'redis'
-brew 'sane-backends', args: ['universal']
-brew 'trash'
-brew 'tree'
-brew 'unixodbc'
-brew 'webkit2png'
-brew 'wget'
-brew 'wine'
-brew 'youtube-dl'
-brew 'homebrew/dupes/grep'
-brew 'homebrew/dupes/openssh'
-brew 'homebrew/dupes/screen'
-brew 'homebrew/fuse/ntfs-3g'
-brew 'homebrew/fuse/sshfs'
 brew 'homebrew/versions/bash-completion2'
-brew 'josegonzalez/php/php56'
-brew 'josegonzalez/php/php56-mcrypt'
+
+# Utility to download content from youtube, the latast Tatort or whatever
+# else you want to watch offline
+brew 'youtube-dl'
+
+cask 'stremio'
+# stream torrents
+
+#
+# system tools
+#
+
+# cask 'osxfuse'
+# let you mount windows drives and write on it
+
 cask '1password'
-cask 'adobe-illustrator-cc'
-cask 'adobe-photoshop-cc'
+# maintain your passwords
+
 cask 'appcleaner'
-cask 'applepi-baker'
-cask 'aseprite'
-cask 'atom'
-cask 'bartender'
-cask 'betterzipql'
-cask 'boxer'
+# remove apps with system setting files
+
 cask 'caffeine'
-cask 'colorpicker-skalacolor'
+# can keep you mac awake when you give a talk for example
+
 cask 'disk-inventory-x'
-cask 'doomrl'
-cask 'firefox'
-cask 'franz'
-cask 'gifrocket'
-cask 'google-chrome'
-cask 'google-drive'
-cask 'grafx'
-cask 'haroopad'
-cask 'helium'
-cask 'hyperterm'
-cask 'imagealpha'
-cask 'imageoptim'
-cask 'imitone'
+# helps you to find large files
+
 cask 'iterm2'
-cask 'kap'
-cask 'ksdiff'
-cask 'lingon-x'
+# nicer looking and hackable terminal
+
 cask 'liteicon'
-cask 'magicavoxel'
-cask 'mixxx'
+# easily change you system and app icons
+
 cask 'monolingual'
-cask 'mysimbl'
-cask 'namebench'
-cask 'omnidisksweeper'
-cask 'openxcom'
-cask 'paw'
-cask 'processing'
-cask 'provisionql'
+# tool to remove unused languages for your mac
+
+cask 'gifrocket'
+# creates gifs from movies
+
+cask 'rightfont'
+# good font management for osx
+
+cask 'fontstand'
+# try expensive fonts for 1h
+
+# cask 'jumpcut'
+# manages osx clipboard manager
+
+
+# cask 'bartender'
+# hide some icons from the OSX toolbar
+
+# cask 'divvy'
+# rearrange your OSX windows with shortcuts
+
+cask 'the-unarchiver'
+# better Unarchiver for OSX (support more formats but works the same)
+
+# cask 'tunnelbear'
+# VPN
+
+# extends quicklook so it supports more formats
 cask 'qlcolorcode'
 cask 'qlimagesize'
 cask 'qlmarkdown'
-cask 'qlprettypatch'
 cask 'qlstephen'
 cask 'quicklook-csv'
 cask 'quicklook-json'
-cask 'recordit'
-cask 'rightfont'
-cask 'scummvm'
-cask 'sitesucker'
-cask 'skitch'
-cask 'steam'
-cask 'steelseries-engine'
-cask 'stremio'
-cask 'sublime-text'
-cask 'suspicious-package'
-cask 'teamspeak-client'
-cask 'telegram-desktop'
-cask 'the-unarchiver'
-cask 'tower'
-cask 'transmit'
-cask 'tunnelbear'
-cask 'virtualbox'
-cask 'vlc'
 cask 'webpquicklook'
-cask 'witch'
-cask 'xbox360-controller-driver'
-mas 'Contacts Sync For Google Gmail', id: 451691288
-mas 'MindNode', id: 992076693
-mas 'Kaleidoscope', id: 587512244
-mas 'Xcode', id: 497799835
-mas 'iA Writer', id: 775737590
-mas 'Noizio', id: 928871589
-mas 'App Factory', id: 556464792
-mas 'PhotoSweeper', id: 463362050
-mas 'Keynote', id: 409183694
+
+#
+# Text & Code
+#
+
+# mas 'Xcode', id: 497799835
+# OSX Coding tools and IOS Simulators
+
+cask 'sublime-text'
+# free and powerful text editor
+
+# cask 'sublime-text'
+# alternative text editor (a bit faster then atom, but less easy to use)
+
+# mas 'iA Writer', id: 775737590
+# distraction free text editor
+
+#
+# Internet stuff
+#
+# cask 'google-chrome'
+# cask 'google-drive'
+
+# cask 'transmit'
+# ftp
+
+# cask 'transmission'
+# torrents
+
+#
+# Collaboration
+#
+# cask 'slack'
+# cask 'skype'
+cask 'github-desktop'
+# github UI
+
+
+#
+# Creative stuff & image tools
+#
+
+# cask 'sketch'
+# sketch
+
+# cask 'sketch-toolbox'
+# sketch plugin management
+
+# cask 'imagealpha'
+# create small transparent PNG
+
+# cask 'imageoptim'
+# PNG optimization
+
+cask 'colorpicker-skalacolor'
+# nicer color picker for OSX
+
+cask 'magicavoxel'
+# Voxel art
+
+# cask 'invisionsync'
+# invision
+
+# cask 'noun-project'
+# noun project icon finder
+
+# cask 'zeplin'
+# zeplin
+
+cask 'principle'
+# animation
+
+# cask 'screenflow'
+# screenflow
+
+# cask 'sketchup'
+# sketchup
+
+# mas '123D Design', id: 566042322
+# free and easy 3D modeling
+
+# adobe stuff
+# cask 'adobe-creative-cloud'
+# cask 'adobe-photoshop-cc'
+# cask 'adobe-illustrator-cc'
+
+# mas 'Pixelmator', id: 407963104
+
+#
+# Multimedia & Tools
+#
+
+# cask 'vlc'
+
+# cask 'spotify'
+
+cask 'gifrocket'
+# create gif's from movies
