@@ -1,4 +1,4 @@
-# meodai's ❣ dotfiles
+# DavidDarx's ❣ dotfiles
 I stole my dotfiles from all over the place <3 And did a nice install script for it.
 
 ## Installation
@@ -10,6 +10,4 @@ cd ~/.dotfiles
 ```
 
 ## Thanks to
-- [@caillou](https://github.com/caillou) for telling me about dot files in the first place
-- [@seldaek](https://github.com/seldaek) for sharing his awesome bash colors with me
-- [@mathiasbynens](https://github.com/mathiasbynens/) for this [dot file repository](https://github.com/mathiasbynens/dotfiles)
+- Forked from [@meodai](https://github.com/meodai)
