@@ -1,0 +1,7 @@
+{
+    "codeintel_scan_exclude_dir":
+    {
+        "JavaScript":["/build/", "/min/", "/bower_components/"]
+    }
+
+}

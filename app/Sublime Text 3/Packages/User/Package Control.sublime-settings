@@ -1,0 +1,47 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoFileName",
+		"ayu",
+		"Base16 Color Schemes",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
+		"CSS Completions",
+		"CSSLint",
+		"Deep Blue See",
+		"DocBlockr",
+		"Dotfiles Syntax Highlighting",
+		"EditorConfig",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"Google Spell Check",
+		"Handlebars",
+		"JSHint Gutter",
+		"Package Control",
+		"PICO-8",
+		"Predawn",
+		"Predawn Twilight Theme",
+		"Pretty JSON",
+		"Pug",
+		"React Templates",
+		"Sass",
+		"SideBarEnhancements",
+		"Stylus",
+		"SublimeCodeIntel",
+		"SublimeGit",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"Swig",
+		"Vuejs Complete Package"
+	]
+}

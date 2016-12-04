@@ -1,0 +1,55 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"close_windows_when_empty": false,
+	"color_scheme": "Packages/User/SublimeLinter/Seahorse (SL).tmTheme",
+	"dictionary": "Packages/Language - English/en_US.dic",
+	"draw_minimap_border": true,
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"findreplace_small": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"app/cache"
+	],
+	"font_face": "SourceCodePro-Regular",
+	"font_options":
+	[
+		"no_round"
+	],
+	"font_size": 16.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"match_brackets": true,
+	"match_brackets_angle": true,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
+	"overlay_scroll_bars": "enabled",
+	"predawn_findreplace_small": true,
+	"predawn_sidebar_medium": true,
+	"predawn_tabs_active_underline": true,
+	"predawn_tabs_medium": true,
+	"rulers":
+	[
+		0,
+		80
+	],
+	"scroll_past_end": true,
+	"scroll_speed": 5.0,
+	"selectionBorder": "pink",
+	"shift_tab_unindent": true,
+	"spell_check": true,
+	"tab_completion": true,
+	"tabs_small": true,
+	"theme": "predawn-DEV.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": false
+}
