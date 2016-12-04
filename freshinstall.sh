@@ -17,7 +17,7 @@ brew update
 
 brew install dialog
 
-if ( ! dialog --yesno "Do you want to install meodai's ❣ .dotfiles?" 6 30) then
+if ( ! dialog --yesno "Do you want to install DavidDarx's ❣ .dotfiles?" 6 30) then
     return;
 fi;
 
@@ -28,10 +28,9 @@ brew tap Homebrew/bundle
 e_header '🍎 Installing Mas'
 brew install mas
 
-
-e_header '🍏 Enter your apple id, followed by [ENTER]:'
-read appleid
-mas signin $appleid
+# e_header '🍏 Enter your apple id, followed by [ENTER]:'
+# read appleid
+# mas signin $appleid
 
 e_header '💾 Installing Applications and command line tools'
 # restore installed apps
@@ -42,10 +41,7 @@ e_header '💾 Creates mackup config file'
 # makes sure mackup config is correct before restoring backup
 cat >~/.mackup.cfg <<'EOT'
 [storage]
-engine = google_drive
-
-[applications_to_ignore]
-skype
+engine = dropbox
 
 [configuration_files]
 .gitignore_global
@@ -79,7 +75,7 @@ unset file;
 
 # say -v "Zarvox" "hello {$USER}, I'm a new terminal" &
 # Show archey on bootup
-say -v "Zarvox" "new terminal" &
+# say -v "Zarvox" "new terminal" &
 archey -c
 EOT
 
@@ -94,7 +90,6 @@ e_header '🍉 Installing global node modules'
 #node stuff
 npm_globals=(
   peerflix
-  node-inspector
   gulp-cli
   vue-cli
   svgo
@@ -105,7 +100,7 @@ do
   npm install -g ${npmglobal};
 done
 
-curl https://install.meteor.com/ | sh
+# curl https://install.meteor.com/ | sh
 
 # make sure seeyouspacecowboy is called on EXIT
 echo 'sh ~/.dotfiles/seeyouspacecowboy.sh; sleep 2' >> ~/.bash_logout

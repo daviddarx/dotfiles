@@ -49,6 +49,8 @@ cask 'stremio'
 cask '1password'
 # maintain your passwords
 
+# cask 'dropbox'
+
 cask 'appcleaner'
 # remove apps with system setting files
 
